@@ -1,0 +1,28 @@
+.show {
+	display: block;
+}
+
+.black-bg {
+  width : 100%;
+  height : 100%;
+  position : fixed;
+  background : rgba(0,0,0,0.5);
+  z-index : 5;
+  padding: 30px;
+  visibility : hidden; /*애니메이션에서 display : none 대용 */
+  opacity : 0;  /* 투명도다 */
+  transition: all 0.2s;
+}
+
+.yellow-bg {
+  background: yellow;
+  width : 50%;
+  border-radius: 5px;
+  padding: 30px;
+  display : block;
+} 
+
+.show-modal {
+	visibility : visible;
+	opacity : 1;
+}

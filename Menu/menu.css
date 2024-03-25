@@ -1,0 +1,11 @@
+.list-group {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.navbar-brand {
+	font-size: 25px;
+}
